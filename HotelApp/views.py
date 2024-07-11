@@ -1,5 +1,4 @@
 from django.shortcuts import render,redirect
-import mysql.connector
 from django.contrib.auth import authenticate,logout,login
 from .import models
 from .forms import Online_Booking_form,offline_Booking_form,Add_Employee_form,Add_Room_form,Add_salary_form
